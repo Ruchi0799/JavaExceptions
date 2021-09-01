@@ -8,7 +8,7 @@ public class MoodAnalizer {
     public MoodAnalizer() {
     }
 
-    public String analyzeMood() {
+    public String analyzeMood() throws MoodAnalizerException{
         try {
             if (message.contains("happy")) return "Happy";
 
